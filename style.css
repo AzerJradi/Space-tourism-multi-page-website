@@ -1,0 +1,113 @@
+*{
+    background-image: url(./starter-code/assets/home/background-home-desktop.jpg);
+}
+.firstPart{
+    margin-top: 25px;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    left: 2.5%;
+}
+.navBar{
+    background: #10264B;
+    color: white;
+    width: 65%;
+    height: 80px;
+    margin-left: 36%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navBarPart{
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+}
+.navBarPart:hover{
+    border-bottom: 2.5px white solid;
+    padding-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background: transparent;
+}
+.navBar1{
+    background: transparent;
+    margin-left: -10px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.navBar2{
+    background: transparent;
+    margin-left: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.BigFirstApp {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.BigFirstApp1 {
+    background: transparent;
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: -35px;
+    border-top: #C6C8E8 1px solid;
+    width: 30%;
+    padding-top: 200px;
+}
+.BigFirstSomeTalk1 {
+    background: transparent;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 28px;
+    color: #C6C8E8;
+    letter-spacing: 1px;
+}
+.BigFirstAppTitle {
+    background: transparent;
+    background: transparent;
+    margin-top: -30px;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size: 112px;
+    font-weight: lighter;
+}
+.BigFirstSomeTalk2 {
+    background: transparent;
+    color: #C6C8E8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 85%;
+    text-align: start;
+    margin-top: -75px;
+    line-height: 30px;
+}
+.button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+.BigFirstApp2 {
+    background: white;
+    color: black;
+    width: 15%;
+    height: 225px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 275px;
+    margin-left: 30%;
+}
